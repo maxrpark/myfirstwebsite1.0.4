@@ -7,7 +7,7 @@ const projects = [
     projectName: 'My Projects',
     projectImg: './website-img/myfirstwebsite1.0.4.jpg',
     desc: 'The main idea of this project it was to have a place where I could show all my other project too. I guess the best thing about this project is the DARK MODE. Try it out!',
-    gitHub: 'https://github.com/maxrpark/maxrpark-myfirstwebsite1.0.4',
+    gitHub: 'https://github.com/maxrpark/myfirstwebsite1.0.4',
     site: 'https://myfirstwebsite1-0-4.netlify.app/',
   },
   {
