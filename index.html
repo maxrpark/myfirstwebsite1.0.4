@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Websites</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <!-- awesome fonts -->
+    <script
+      src="https://kit.fontawesome.com/6f654f2ea2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="dark-mod">
+    <!-- sidebar dinamic-->
+    <aside>
+      <div class="sidebar-container">
+        <i class="close-btn fas fa-times"></i>
+        <div class="sidebar-title">
+          <img class="img profile-img" src="./img/profile-pc.jpg" alt="" />
+          <h3>maxi ruti</h3>
+          <h5 class="developer">Web Developer</h5>
+          <h3>about me</h3>
+          <p>
+            I am self taught web developer from Argentina. I am currently living
+            in South Korea. <br />
+            In this website you can find most of my projects, these projects
+            showcase what I have been learning and hopelly my progress.
+          </p>
+        </div>
+
+        <div class="social-links">
+          <a href="https://twitter.com/MaxCodeJourney?s=08" target="blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=1408004077"
+            target="blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/maxi.r.park/" target="blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </aside>
+    <!-- end sidebar -->
+    <!-- contact form dinamic -->
+    <section class="contact">
+      <div class="contact-container">
+        <form
+          class="form"
+          action="https://formspree.io/f/mlealpoo"
+          method="POST"
+          autocomplete="off"
+        >
+          <i class="close-btn btn-form fas fa-times"></i>
+          <h2>get in touch</h2>
+          <div class="form-row">
+            <input
+              type="text"
+              id="text"
+              name="name"
+              placeholder="Name"
+              class="form-input"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <input
+              name="email"
+              type="email"
+              id="email"
+              placeholder="Email"
+              class="form-input"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <textarea
+              name="text-area"
+              placeholder="Enter your message"
+              class="form-textarea"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- end contact modal -->
+    <header>
+      <!-- navbar -->
+      <nav class="nav">
+        <div class="navbar">
+          <h4>My websites</h4>
+          <ul class="navlinks">
+            <li><a href="#" id="about">About Me</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
+            <!-- dark mode btn -->
+            <div class="dark-mode-btn">
+              <input type="checkbox" class="checkbox" id="checkbox" />
+              <label for="checkbox" class="label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+              </label>
+            </div>
+            <!-- end dark mode btn -->
+          </ul>
+        </div>
+      </nav>
+
+      <!-- HeroImg -->
+      <div class="hero-section">
+        <h1>this is a colection of my projects</h1>
+        <h4>I hope you enjoy it!</h4>
+      </div>
+    </header>
+    <!-- section -->
+    <div class="section-center">
+      <h2>my latest projects</h2>
+      <div class="underline"></div>
+    </div>
+    <!-- content -->
+    <div class="section-projects">
+      <div class="projects"></div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <p>
+          Copyright &copy; Maxi Ruti <span class="date">2020</span>. All Rights
+          Reserved
+        </p>
+      </div>
+    </footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
