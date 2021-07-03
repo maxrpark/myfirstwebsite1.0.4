@@ -1,4 +1,9 @@
 # This Is A Colection Of My Projects ![alt text](https://img.shields.io/badge/My%20first%20website-1.0.4-yellow)  ![alt text](https://img.shields.io/badge/Made%20by-Max-brightgreen)
+
+<p align="center">
+<img src="https://github.com/maxrpark/myfirstwebsite1.0.4/blob/main/website-img/myfirstwebsite1.0.4.jpg" width="70%" align="center">
+<p>
+
 ## This is my first website 1.0.4
 
 The main purpose of this website was to have a place where I could show case all my projects. Basically a website that could share with anyone interested in my work.
