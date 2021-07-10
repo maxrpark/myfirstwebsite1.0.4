@@ -2,6 +2,24 @@
 
 const projects = [
   {
+    id: '9',
+    title: 'myfirstwebsite 1.0.6',
+    projectName: 'Baby Names Website',
+    projectImg: './website-img/myfirstwebsite1.0.6.jpg',
+    desc: 'A website that will help you decide the name of your baby. It can provide a list with the top 50 names for girls and boys.<br> It can also help you decide between your favorites names. The site was a shop section and A&Q section. ',
+    gitHub: 'https://github.com/maxrpark/myfirstwebsite1.0.6',
+    site: 'https://myfirstwebsite1-0-6.netlify.app/',
+  },
+  {
+    id: '8',
+    title: 'myfirstwebsite 1.0.5',
+    projectName: 'Covid Report',
+    projectImg: './website-img/myfirstwebsite1.0.5.jpg',
+    desc: 'This website show updated Argentina COVID 19 report.  <br> This is my first website getting information form and external API',
+    gitHub: 'https://github.com/maxrpark/myfirstwebsite1.0.5',
+    site: 'https://myfirstwebsite1-0-5.netlify.app/',
+  },
+  {
     id: '7',
     title: 'myfirstwebsite 1.0.4',
     projectName: 'My Projects',
