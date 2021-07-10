@@ -1,4 +1,9 @@
-# This Is A Colection Of My Projects ![alt text](https://img.shields.io/badge/My%20first%20website-1.0.4-yellow)  ![alt text](https://img.shields.io/badge/Made%20by-Max-brightgreen)
+
+<div align="center">
+<h1>This Is A Colection Of My Projects </h1>
+  
+![alt text](https://img.shields.io/badge/My%20first%20website-1.0.4-yellow)  ![alt text](https://img.shields.io/badge/Made%20by-Max-brightgreen)
+</div>
 
 <p align="center">
 <img src="https://github.com/maxrpark/myfirstwebsite1.0.4/blob/main/website-img/myfirstwebsite1.0.4.jpg" width="70%" align="center">
