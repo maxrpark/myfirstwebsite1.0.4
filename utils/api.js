@@ -2,6 +2,42 @@
 
 const projects = [
   {
+    id: '13',
+    title: 'myfirstwebsite 1.0.7',
+    projectName: 'The Movie Masters',
+    projectImg: './website-img/myfirstwebsite1.0.7.jpg',
+    desc: 'The Movie Masters, it is a website where the movie critics meet. Here you can find all your favorite movies. Read reviews, create a profile and add your favorite movies to your list. This website us TMDB API. ',
+    gitHub: 'https://github.com/maxrpark/myfirstwebsite1.0.7',
+    site: 'https://themoviemasters.netlify.app/',
+  },
+  {
+    id: '12',
+    title: 'Wordpress 3',
+    projectName: 'Vegetariano en Corea',
+    projectImg: './website-img/wordpress-3.jpg',
+    desc: 'This is website was built using OCEAN WP, it is my personal blog, where I share information, tips and reviews for vegetarian people living in South Korea. It has links to the YouTube channel and Instagram profile of the same project. ',
+    gitHub: '',
+    site: 'https://vegetarianoencorea.com/',
+  },
+  {
+    id: '11',
+    title: 'Wordpress 2',
+    projectName: 'All About Mendoza',
+    projectImg: './website-img/wordpress-2.jpg',
+    desc: 'This wordlpress website is build using DIVI, is a Travel Guide Website about Mendoza, Argentina. The main idea was to provide valuable info but also to create a niche website. It has google ads and affiliate links.',
+    gitHub: '',
+    site: 'https://allaboutmendoza.com/',
+  },
+  {
+    id: '10',
+    title: 'Wordpress 1',
+    projectName: 'Aprende Coreano Paso a Paso',
+    projectImg: './website-img/wordpress-1.jpg',
+    desc: 'This is the first website I built with wordpress, it is LMS website to learn Korean language. It has course section, shop, blog. It currently has nearly 100k view per month and most of the articles rank in the first page of google. ',
+    gitHub: '',
+    site: 'https://aprendecoreanopasoapaso.com/',
+  },
+  {
     id: '9',
     title: 'myfirstwebsite 1.0.6',
     projectName: 'Baby Names Website',
