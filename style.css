@@ -32,7 +32,7 @@ body {
   --closeBtn1: #0f0e17;
   --closeBtn2: #fefefe;
   --projectColor1: #3a4454;
-  --projectColor2: #b5bca6;
+  --projectColor2: #d3d4d9;
 
   /* More Colores */
   --black: #222;
@@ -203,7 +203,7 @@ DARKMODE
   --closeBtn1: #fefefe;
   --closeBtn2: #0f0e17;
   --projectColor2: #3a4454;
-  --projectColor1: #b5bca6;
+  --projectColor1: #d3d4d9;
 }
 
 .label {
