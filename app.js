@@ -1,4 +1,3 @@
-import projects from './utils/api.js';
 import fixNav from './utils/fixNav.js';
 import darkMode from './utils/darkMode.js';
 import dispayYear from './utils/displayYear.js';
