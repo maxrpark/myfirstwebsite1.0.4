@@ -12,7 +12,6 @@ window.addEventListener('DOMContentLoaded', function () {
         'https://my-portfolio-blog-website.netlify.app/api/myProjects'
       );
       const data = await resp.json();
-      console.log(data);
       const projects = data
         .map(function (project) {
           return ` 
@@ -23,7 +22,7 @@ window.addEventListener('DOMContentLoaded', function () {
             </div>
             <div class="project-description">
               <h4 class="">${project.version}</h4>
-              <h2 class="project-name">${project.nam}</h2>
+              <h2 class="project-name">${project.name}</h2>
               <p class="project-desc">
                 ${project.shortDsc}
               </p>
@@ -44,40 +43,10 @@ window.addEventListener('DOMContentLoaded', function () {
       projectsSection.innerHTML = projects;
     } catch (error) {
       console.log(error);
-      // result.innerHTML = "<h4>There was an error</h4>";
+      projectsSection.innerHTML = '<h4>There was an error</h4>';
     }
   };
   fetchProjects();
-  // fetchProjects();
-  // let displayProjects = projects.map(function (item) {
-  //   return `
-  //       <article class="single-project id">
-  //         <div class="project-info">
-  //         <div class="img-container">
-  //           <img class="project-img img" src="${item.projectImg}" alt="${item.title}" />
-  //           </div>
-  //           <div class="project-description">
-  //             <h4 class="">${item.title}</h4>
-  //             <h2 class="project-name">${item.projectName}</h2>
-  //             <p class="project-desc">
-  //               ${item.desc}
-  //             </p>
-  //             </div>
-  //           </div>
-  //         </div>
-  //         <div class="project-links">
-  //           <a href="${item.gitHub}" target="_blank"
-  //             ><i class="fab fa-github"></i></a>
-
-  //             <a class=" btn project-btn" href="${item.site}" target="_blank">visit</a>
-
-  //         </div>
-  //       </article>
-  //      `;
-  // });
-
-  // displayProjects = displayProjects.join('');
-  // projectsSection.innerHTML = projects;
 });
 
 // CONTACT
