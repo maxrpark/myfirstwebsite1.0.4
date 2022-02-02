@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', function () {
       const resp = await fetch(
         'https://my-portfolio-blog-website.netlify.app/api/myProjects'
       );
-      const data = await resp.json();
+      const data = await resp.json().sort((a, b) => b.projectID - a.projectID);;
       const projects = data
         .map(function (project) {
           return ` 
